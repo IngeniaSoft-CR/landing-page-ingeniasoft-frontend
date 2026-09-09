@@ -13,6 +13,7 @@
     content="software a la medida, desarrollo de software, software para pymes, automatización de procesos, sistema de inventario, software empresarial, desarrollo web, aplicaciones empresariales, desarrollo de software Costa Rica, software a la medida Costa Rica, sistemas para pymes Costa Rica, desarrollo web rápido, software económico para empresas, automatización empresarial Costa Rica, aplicaciones web Costa Rica, software rápido y económico">
   <meta name="author" content="IngeniaSoft">
   <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="public/images/ingenia-logo_100x100.png">
   <link rel="canonical" href="https://www.ingeniasoft.net/">
 
   <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
@@ -119,6 +120,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Sora:wght@300;400;500;600&display=swap"
     rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -128,7 +132,7 @@
   <nav class="nav" id="navbar">
     <div class="nav-inner">
       <a href="#" class="logo">
-        <div class="logo-icon">💡</div>
+        <img class="logo-icon" src="public/images/ingenia-logo_100x100.png" alt="IngeniaSoft">
         <span class="logo-text">Ingenia<span>Soft</span></span>
       </a>
       <ul class="nav-links">
@@ -137,7 +141,8 @@
         <li><a href="#proceso">Proceso</a></li>
         <!-- <li><a href="#portafolio">Portafolio</a></li>
       <li><a href="#testimonios">Testimonios</a></li> -->
-        <li><a href="#contacto" class="nav-cta">Cotizar ✨</a></li>
+        <li><a href="#contacto" class="nav-cta">Cotizar <span class="material-symbols-outlined"
+              style="font-size:18px">arrow_forward</span></a></li>
       </ul>
     </div>
   </nav>
@@ -149,10 +154,6 @@
     <div class="hero-orb-2"></div>
     <div class="hero-inner">
       <div class="hero-content">
-        <div class="hero-badge">
-          <span class="hero-badge-dot">✓</span>
-          Soluciones digitales para PYMES
-        </div>
         <h1 class="hero-title">
           Desarrollamos software <span class="highlight">a la medida</span> para pequeñas empresas
         </h1>
@@ -161,9 +162,16 @@
           complicaciones, sin contratos eternos.
         </p>
         <div class="hero-ctas">
-          <a href="#contacto" class="btn-primary">📋 Solicitar cotización</a>
-          <a href="#contacto" class="btn-secondary">📅 Agendar llamada</a>
-          <a href="https://wa.me/50661675533" class="btn-whatsapp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20" height="20" fill="#fff" style="flex-shrink:0" role="img" aria-label="WhatsApp"><path d="M24 4C12.95 4 4 12.95 4 24c0 3.74 1.02 7.24 2.79 10.24L4 44l10.05-2.73A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.28 0-6.34-.93-8.93-2.54l-.64-.38-6.62 1.8 1.76-6.44-.42-.66A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16zm8.77-11.76c-.48-.24-2.84-1.4-3.28-1.56-.44-.16-.76-.24-1.08.24-.32.48-1.24 1.56-1.52 1.88-.28.32-.56.36-1.04.12-.48-.24-2.02-.74-3.85-2.36-1.42-1.26-2.38-2.82-2.66-3.3-.28-.48-.03-.74.21-.98.22-.22.48-.56.72-.84.24-.28.32-.48.48-.8.16-.32.08-.6-.04-.84-.12-.24-1.08-2.6-1.48-3.56-.39-.93-.78-.8-1.08-.82-.28-.01-.6-.01-.92-.01-.32 0-.84.12-1.28.6-.44.48-1.68 1.64-1.68 4s1.72 4.64 1.96 4.96c.24.32 3.38 5.16 8.2 7.24 1.15.5 2.04.8 2.74 1.02 1.15.36 2.2.31 3.02.19.92-.14 2.84-1.16 3.24-2.28.4-1.12.4-2.08.28-2.28-.12-.2-.44-.32-.92-.56z"/></svg> WhatsApp</a>
+          <a href="#contacto" class="btn-primary"><span class="material-symbols-outlined"
+              style="font-size:18px">list_alt</span> Solicitar cotización</a>
+          <a href="#contacto" class="btn-secondary"><span class="material-symbols-outlined"
+              style="font-size:18px">calendar_month</span> Agendar llamada</a>
+          <a href="https://wa.me/50661675533" class="btn-whatsapp"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48" width="20" height="20" fill="#fff" style="flex-shrink:0" role="img"
+              aria-label="WhatsApp">
+              <path
+                d="M24 4C12.95 4 4 12.95 4 24c0 3.74 1.02 7.24 2.79 10.24L4 44l10.05-2.73A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.28 0-6.34-.93-8.93-2.54l-.64-.38-6.62 1.8 1.76-6.44-.42-.66A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16zm8.77-11.76c-.48-.24-2.84-1.4-3.28-1.56-.44-.16-.76-.24-1.08.24-.32.48-1.24 1.56-1.52 1.88-.28.32-.56.36-1.04.12-.48-.24-2.02-.74-3.85-2.36-1.42-1.26-2.38-2.82-2.66-3.3-.28-.48-.03-.74.21-.98.22-.22.48-.56.72-.84.24-.28.32-.48.48-.8.16-.32.08-.6-.04-.84-.12-.24-1.08-2.6-1.48-3.56-.39-.93-.78-.8-1.08-.82-.28-.01-.6-.01-.92-.01-.32 0-.84.12-1.28.6-.44.48-1.68 1.64-1.68 4s1.72 4.64 1.96 4.96c.24.32 3.38 5.16 8.2 7.24 1.15.5 2.04.8 2.74 1.02 1.15.36 2.2.31 3.02.19.92-.14 2.84-1.16 3.24-2.28.4-1.12.4-2.08.28-2.28-.12-.2-.44-.32-.92-.56z" />
+            </svg> WhatsApp</a>
         </div>
         <!-- <div class="hero-stats">
         <div class="hero-stat">
@@ -183,7 +191,7 @@
 
       <div class="mockup-wrap">
         <div class="mockup-float-1">
-          <span style="font-size:1.2rem">📈</span>
+          <span class="material-symbols-outlined" style="font-size:1.2rem">insights</span>
           <div>
             <div style="font-size:0.75rem;color:#64748b;font-weight:500">Ventas este mes</div>
             <div style="color:#10b981;font-weight:700">+34% vs anterior</div>
@@ -266,7 +274,7 @@
           </div>
         </div>
         <div class="mockup-float-2">
-          <span style="font-size:1.2rem">⚡</span>
+          <span class="material-symbols-outlined" style="font-size:1.2rem">bolt</span>
           <div>
             <div style="font-size:0.75rem;color:#64748b;font-weight:500">Proceso automatizado</div>
             <div style="color:#2563eb;font-weight:700">3h ahorradas hoy</div>
@@ -278,46 +286,47 @@
 
   <!-- PROBLEMAS -->
   <section class="problems-section" id="problemas">
+    <img class="problems-banner" src="public/images/banner.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <div class="problems-overlay"></div>
     <div class="problems-inner">
       <div class="section-header">
-        <div class="section-label">⚠️ Reconoces alguno?</div>
         <h2 class="section-title" style="color:white">¿Tu negocio sufre de esto?</h2>
         <p class="section-subtitle">Estos son los problemas más comunes que enfrentan las pequeñas empresas. Nosotros
           tenemos la solución.</p>
       </div>
       <div class="problems-grid">
         <div class="problem-card fade-up stagger-1">
-          <div class="problem-icon" style="background:rgba(239,68,68,0.15)">📊</div>
+          <div class="problem-icon"><span class="material-symbols-outlined">query_stats</span></div>
           <div class="problem-title">Exceso de Excel</div>
           <div class="problem-desc">Archivos interminables, fórmulas que se rompen y datos duplicados en hojas que nadie
             entiende.</div>
         </div>
         <div class="problem-card fade-up stagger-2">
-          <div class="problem-icon" style="background:rgba(245,158,11,0.15)">🔄</div>
+          <div class="problem-icon"><span class="material-symbols-outlined">sync</span></div>
           <div class="problem-title">Procesos manuales</div>
           <div class="problem-desc">Tareas repetitivas que consumen horas de trabajo y generan errores humanos
             constantemente.</div>
         </div>
         <div class="problem-card fade-up stagger-3">
-          <div class="problem-icon" style="background:rgba(249,115,22,0.15)">💾</div>
+          <div class="problem-icon"><span class="material-symbols-outlined">database</span></div>
           <div class="problem-title">Pérdida de información</div>
           <div class="problem-desc">Datos de clientes, ventas e inventario dispersos, sin respaldo ni historial
             confiable.</div>
         </div>
         <div class="problem-card fade-up stagger-4">
-          <div class="problem-icon" style="background:rgba(168,85,247,0.15)">📦</div>
+          <div class="problem-icon"><span class="material-symbols-outlined">inventory_2</span></div>
           <div class="problem-title">Sin control de inventario</div>
           <div class="problem-desc">No sabes cuánto tienes, cuándo se agota o qué está sobrando. Pérdidas silenciosas.
           </div>
         </div>
         <div class="problem-card fade-up stagger-5">
-          <div class="problem-icon" style="background:rgba(34,197,94,0.15)">📱</div>
+          <div class="problem-icon"><span class="material-symbols-outlined">smartphone</span></div>
           <div class="problem-title">Pedidos por WhatsApp</div>
           <div class="problem-desc">Órdenes perdidas en el chat, sin seguimiento, sin confirmación y sin historial
             organizado.</div>
         </div>
         <div class="problem-card fade-up stagger-6">
-          <div class="problem-icon" style="background:rgba(59,130,246,0.15)">🐌</div>
+          <div class="problem-icon"><span class="material-symbols-outlined">slow_motion_video</span></div>
           <div class="problem-title">Sistemas viejos o lentos</div>
           <div class="problem-desc">Software desactualizado que frena tu equipo, no se integra con nada y cuesta caro
             mantener.</div>
@@ -330,42 +339,42 @@
   <section id="servicios" style="padding:100px 24px; background: white;">
     <div style="max-width:1200px; margin:0 auto;">
       <div class="section-header fade-up">
-        <div class="section-label">⚙️ Lo que hacemos</div>
+        <div class="section-label">Lo que hacemos</div>
         <h2 class="section-title">Servicios diseñados para tu negocio</h2>
         <p class="section-subtitle">Cada solución es construida desde cero para adaptarse exactamente a cómo trabajas.
         </p>
       </div>
       <div class="services-grid">
         <div class="service-card fade-up stagger-1">
-          <div class="service-icon">🖥️</div>
+          <div class="service-icon"><span class="material-symbols-outlined">computer</span></div>
           <div class="service-title">Software a la medida</div>
           <div class="service-desc">Desarrollamos exactamente lo que tu negocio necesita. Sin funciones de más, sin
             limitaciones artificiales.</div>
           <a href="#contacto" class="service-link">Conocer más →</a>
         </div>
         <div class="service-card fade-up stagger-2">
-          <div class="service-icon">⚡</div>
+          <div class="service-icon"><span class="material-symbols-outlined">bolt</span></div>
           <div class="service-title">Automatización de procesos</div>
           <div class="service-desc">Convertimos tareas manuales en flujos automáticos. Menos errores, más tiempo para lo
             que importa.</div>
           <a href="#contacto" class="service-link">Conocer más →</a>
         </div>
         <div class="service-card fade-up stagger-3">
-          <div class="service-icon">📊</div>
+          <div class="service-icon"><span class="material-symbols-outlined">query_stats</span></div>
           <div class="service-title">Sistemas administrativos web</div>
           <div class="service-desc">Dashboards, reportes, inventario, ventas y más, accesibles desde cualquier
             dispositivo.</div>
           <a href="#contacto" class="service-link">Conocer más →</a>
         </div>
         <div class="service-card fade-up stagger-4">
-          <div class="service-icon">🔗</div>
+          <div class="service-icon"><span class="material-symbols-outlined">integration_instructions</span></div>
           <div class="service-title">Integraciones y APIs</div>
           <div class="service-desc">Conectamos tu sistema con WhatsApp, correo, facturación electrónica, pagos y más.
           </div>
           <a href="#contacto" class="service-link">Conocer más →</a>
         </div>
         <div class="service-card fade-up stagger-5">
-          <div class="service-icon">🛡️</div>
+          <div class="service-icon"><span class="material-symbols-outlined">shield</span></div>
           <div class="service-title">Soporte y mantenimiento</div>
           <div class="service-desc">No te dejamos solo después de entregar. Actualizaciones, soporte técnico y mejoras
             continuas.</div>
@@ -373,7 +382,8 @@
         </div>
         <div class="service-card fade-up stagger-6"
           style="background: linear-gradient(135deg, #1e3a8a, #2563eb); border-color: transparent;">
-          <div class="service-icon" style="background:rgba(255,255,255,0.15)">🚀</div>
+          <div class="service-icon" style="background:rgba(255,255,255,0.15);color:#fff"><span
+              class="material-symbols-outlined">rocket_launch</span></div>
           <div class="service-title" style="color:white">¿Tienes otra necesidad?</div>
           <div class="service-desc" style="color:rgba(255,255,255,0.7)">Cuéntanos tu problema. Si tiene solución
             digital, lo construimos. Así de simple.</div>
@@ -385,33 +395,42 @@
 
   <!-- TIPOS DE NEGOCIOS -->
   <section class="biz-section" id="negocios">
+    <img class="biz-banner" src="public/images/banner%202.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async">
+    <div class="biz-overlay"></div>
     <div class="biz-inner">
       <div class="section-header fade-up" style="text-align:center">
-        <div class="section-label" style="margin:0 auto 20px">🏪 Para quién trabajamos</div>
+        <div class="section-label" style="margin:0 auto 20px">Para quién trabajamos</div>
         <h2 class="section-title">Tu industria, tu solución</h2>
         <p class="section-subtitle" style="margin:0 auto">Hemos trabajado con negocios de múltiples sectores. Conocemos
           sus retos, su lenguaje y sus necesidades.</p>
       </div>
       <div class="biz-grid">
-        <div class="biz-card fade-up stagger-1"><span class="biz-emoji">🔧</span>
+        <div class="biz-card fade-up stagger-1"><span class="biz-emoji"><span
+              class="material-symbols-outlined">handyman</span></span>
           <div class="biz-name">Ferreterías</div>
         </div>
-        <div class="biz-card fade-up stagger-2"><span class="biz-emoji">🍽️</span>
+        <div class="biz-card fade-up stagger-2"><span class="biz-emoji"><span
+              class="material-symbols-outlined">restaurant</span></span>
           <div class="biz-name">Restaurantes</div>
         </div>
-        <div class="biz-card fade-up stagger-3"><span class="biz-emoji">🏥</span>
+        <div class="biz-card fade-up stagger-3"><span class="biz-emoji"><span
+              class="material-symbols-outlined">medical_services</span></span>
           <div class="biz-name">Clínicas</div>
         </div>
-        <div class="biz-card fade-up stagger-4"><span class="biz-emoji">🚗</span>
+        <div class="biz-card fade-up stagger-4"><span class="biz-emoji"><span
+              class="material-symbols-outlined">directions_car</span></span>
           <div class="biz-name">Talleres</div>
         </div>
-        <div class="biz-card fade-up stagger-5"><span class="biz-emoji">🚚</span>
+        <div class="biz-card fade-up stagger-5"><span class="biz-emoji"><span
+              class="material-symbols-outlined">local_shipping</span></span>
           <div class="biz-name">Distribuidoras</div>
         </div>
-        <div class="biz-card fade-up stagger-6"><span class="biz-emoji">🛍️</span>
+        <div class="biz-card fade-up stagger-6"><span class="biz-emoji"><span
+              class="material-symbols-outlined">shopping_bag</span></span>
           <div class="biz-name">Tiendas</div>
         </div>
-        <div class="biz-card fade-up" style="transition-delay:0.7s"><span class="biz-emoji">💼</span>
+        <div class="biz-card fade-up" style="transition-delay:0.7s"><span class="biz-emoji"><span
+              class="material-symbols-outlined">work</span></span>
           <div class="biz-name">Servicios</div>
         </div>
       </div>
@@ -422,7 +441,7 @@
   <section class="process-section" id="proceso">
     <div class="process-inner">
       <div class="section-header fade-up">
-        <div class="section-label">🗺️ El camino</div>
+        <div class="section-label">El camino</div>
         <h2 class="section-title">Cómo trabajamos contigo</h2>
         <p class="section-subtitle">Un proceso claro, sin tecnicismos y pensado para que siempre sepas qué sigue.</p>
       </div>
@@ -480,7 +499,7 @@
 <section class="portfolio-section" id="portafolio">
   <div class="portfolio-inner">
     <div class="section-header fade-up">
-      <div class="section-label">💼 Casos de éxito</div>
+      <div class="section-label">Casos de éxito</div>
       <h2 class="section-title">Proyectos que transformaron negocios</h2>
       <p class="section-subtitle">Soluciones reales con resultados medibles. Así lucen nuestros sistemas en acción.</p>
     </div>
@@ -607,19 +626,27 @@
   <!-- TECNOLOGÍAS -->
   <section class="tech-section" id="tecnologias">
     <div class="tech-inner fade-up">
-      <div class="section-label" style="margin:0 auto 20px">🛠️ Stack tecnológico</div>
+      <div class="section-label">Stack tecnológico</div>
       <h2 class="section-title" style="text-align:center">Tecnologías de primer nivel</h2>
       <p class="section-subtitle" style="margin:0 auto; text-align:center">Usamos herramientas modernas y probadas. Sin
         tecnicismos, sin humo: solo lo que funciona.</p>
       <div class="tech-grid">
-        <div class="tech-pill"><span class="tech-pill-icon">⚙️</span> .NET / C#</div>
-        <div class="tech-pill"><span class="tech-pill-icon">🔺</span> Angular</div>
-        <div class="tech-pill"><span class="tech-pill-icon">🗄️</span> SQL Server</div>
-        <div class="tech-pill"><span class="tech-pill-icon">☁️</span> Azure</div>
-        <div class="tech-pill"><span class="tech-pill-icon">🔗</span> REST APIs</div>
-        <div class="tech-pill"><span class="tech-pill-icon">📱</span> Responsive Web</div>
-        <div class="tech-pill"><span class="tech-pill-icon">💬</span> WhatsApp API</div>
-        <div class="tech-pill"><span class="tech-pill-icon">🔒</span> Auth & Seguridad</div>
+        <div class="tech-pill"><span class="tech-pill-icon"><span
+              class="material-symbols-outlined">settings</span></span> .NET / C#</div>
+        <div class="tech-pill"><span class="tech-pill-icon"><span
+              class="material-symbols-outlined">change_history</span></span> Angular</div>
+        <div class="tech-pill"><span class="tech-pill-icon"><span
+              class="material-symbols-outlined">storage</span></span> SQL Server</div>
+        <div class="tech-pill"><span class="tech-pill-icon"><span class="material-symbols-outlined">cloud</span></span>
+          Azure</div>
+        <div class="tech-pill"><span class="tech-pill-icon"><span class="material-symbols-outlined">link</span></span>
+          REST APIs</div>
+        <div class="tech-pill"><span class="tech-pill-icon"><span
+              class="material-symbols-outlined">smartphone</span></span> Responsive Web</div>
+        <div class="tech-pill"><span class="tech-pill-icon"><span class="material-symbols-outlined">chat</span></span>
+          WhatsApp API</div>
+        <div class="tech-pill"><span class="tech-pill-icon"><span class="material-symbols-outlined">lock</span></span>
+          Auth & Seguridad</div>
       </div>
     </div>
   </section>
@@ -628,13 +655,13 @@
 <section class="testimonials-section" id="testimonios">
   <div class="testimonials-inner">
     <div class="section-header fade-up">
-      <div class="section-label">⭐ Lo que dicen</div>
+      <div class="section-label">Lo que dicen</div>
       <h2 class="section-title">Clientes que ya dieron el paso</h2>
       <p class="section-subtitle">No te pedimos que confíes en nosotros. Confía en ellos.</p>
     </div>
     <div class="testimonials-grid">
       <div class="testimonial-card fade-up stagger-1">
-        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testimonial-stars"><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span></div>
         <div class="testimonial-text">"Antes perdíamos horas en Excel. Ahora tenemos control total del inventario desde el celular. El sistema que nos desarrollaron cambió nuestra ferretería por completo."</div>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#2563eb,#7c3aed)">JM</div>
@@ -645,7 +672,7 @@
         </div>
       </div>
       <div class="testimonial-card fade-up stagger-2">
-        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testimonial-stars"><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span></div>
         <div class="testimonial-text">"Las citas perdidas bajaron un 65%. Los pacientes reciben recordatorio por WhatsApp y la agenda digital es increíble. El equipo siempre estuvo disponible para ayudarnos."</div>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#f97316,#ec4899)">DV</div>
@@ -656,7 +683,7 @@
         </div>
       </div>
       <div class="testimonial-card fade-up stagger-3">
-        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+        <div class="testimonial-stars"><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span><span class="material-symbols-outlined" style="font-size:1.05rem;color:#f59e0b;font-variation-settings:'FILL' 1">star</span></div>
         <div class="testimonial-text">"Teníamos pedidos por WhatsApp que se perdían todo el tiempo. Ahora tenemos un sistema propio y nuestras ventas online crecieron un 35% en 3 meses. Excelente inversión."</div>
         <div class="testimonial-author">
           <div class="author-avatar" style="background:linear-gradient(135deg,#22c55e,#0891b2)">CR</div>
@@ -674,7 +701,7 @@
   <section class="faq-section" id="faq">
     <div class="faq-inner">
       <div class="section-header fade-up" style="text-align:center">
-        <div class="section-label" style="margin:0 auto 20px">❓ Preguntas frecuentes</div>
+        <div class="section-label" style="margin:0 auto 20px">Preguntas frecuentes</div>
         <h2 class="section-title">Todo lo que necesitas saber</h2>
         <p class="section-subtitle" style="margin:0 auto">Sin letra pequeña, sin sorpresas.</p>
       </div>
@@ -734,8 +761,14 @@
       <p class="cta-banner-sub">Agenda una llamada gratuita de 30 minutos. Te mostramos cómo podemos transformar tu
         operación con tecnología a tu medida.</p>
       <div class="cta-banner-btns">
-        <a href="#contacto" class="btn-primary">📋 Solicitar cotización gratis</a>
-        <a href="https://wa.me/50661675533" class="btn-whatsapp"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20" height="20" fill="#fff" style="flex-shrink:0" role="img" aria-label="WhatsApp"><path d="M24 4C12.95 4 4 12.95 4 24c0 3.74 1.02 7.24 2.79 10.24L4 44l10.05-2.73A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.28 0-6.34-.93-8.93-2.54l-.64-.38-6.62 1.8 1.76-6.44-.42-.66A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16zm8.77-11.76c-.48-.24-2.84-1.4-3.28-1.56-.44-.16-.76-.24-1.08.24-.32.48-1.24 1.56-1.52 1.88-.28.32-.56.36-1.04.12-.48-.24-2.02-.74-3.85-2.36-1.42-1.26-2.38-2.82-2.66-3.3-.28-.48-.03-.74.21-.98.22-.22.48-.56.72-.84.24-.28.32-.48.48-.8.16-.32.08-.6-.04-.84-.12-.24-1.08-2.6-1.48-3.56-.39-.93-.78-.8-1.08-.82-.28-.01-.6-.01-.92-.01-.32 0-.84.12-1.28.6-.44.48-1.68 1.64-1.68 4s1.72 4.64 1.96 4.96c.24.32 3.38 5.16 8.2 7.24 1.15.5 2.04.8 2.74 1.02 1.15.36 2.2.31 3.02.19.92-.14 2.84-1.16 3.24-2.28.4-1.12.4-2.08.28-2.28-.12-.2-.44-.32-.92-.56z"/></svg> Escribir por WhatsApp</a>
+        <a href="#contacto" class="btn-primary"><span class="material-symbols-outlined"
+            style="font-size:18px">list_alt</span> Solicitar cotización gratis</a>
+        <a href="https://wa.me/50661675533" class="btn-whatsapp"><svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 48 48" width="20" height="20" fill="#fff" style="flex-shrink:0" role="img"
+            aria-label="WhatsApp">
+            <path
+              d="M24 4C12.95 4 4 12.95 4 24c0 3.74 1.02 7.24 2.79 10.24L4 44l10.05-2.73A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.28 0-6.34-.93-8.93-2.54l-.64-.38-6.62 1.8 1.76-6.44-.42-.66A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16zm8.77-11.76c-.48-.24-2.84-1.4-3.28-1.56-.44-.16-.76-.24-1.08.24-.32.48-1.24 1.56-1.52 1.88-.28.32-.56.36-1.04.12-.48-.24-2.02-.74-3.85-2.36-1.42-1.26-2.38-2.82-2.66-3.3-.28-.48-.03-.74.21-.98.22-.22.48-.56.72-.84.24-.28.32-.48.48-.8.16-.32.08-.6-.04-.84-.12-.24-1.08-2.6-1.48-3.56-.39-.93-.78-.8-1.08-.82-.28-.01-.6-.01-.92-.01-.32 0-.84.12-1.28.6-.44.48-1.68 1.64-1.68 4s1.72 4.64 1.96 4.96c.24.32 3.38 5.16 8.2 7.24 1.15.5 2.04.8 2.74 1.02 1.15.36 2.2.31 3.02.19.92-.14 2.84-1.16 3.24-2.28.4-1.12.4-2.08.28-2.28-.12-.2-.44-.32-.92-.56z" />
+          </svg> Escribir por WhatsApp</a>
       </div>
     </div>
   </section>
@@ -745,22 +778,26 @@
     <div class="contact-orb"></div>
     <div class="contact-inner">
       <div class="contact-info fade-up">
-        <div class="section-label">📬 Contáctanos</div>
+        <div class="section-label">Contáctanos</div>
         <h2 class="section-title" style="color:white; font-size:clamp(1.8rem,3.5vw,2.8rem)">Hablemos de tu proyecto</h2>
         <p class="section-subtitle" style="color:rgba(255,255,255,0.6)">Sin compromisos. Sin presiones. Solo una
           conversación para entender tu negocio y ver si podemos ayudarte.</p>
         <div class="contact-features">
           <div class="contact-feature">
-            <div class="contact-feature-icon">⚡</div> Respuesta en menos de 24 horas
+            <div class="contact-feature-icon"><span class="material-symbols-outlined">bolt</span></div> Respuesta en
+            menos de 24 horas
           </div>
           <div class="contact-feature">
-            <div class="contact-feature-icon">🎁</div> Consulta inicial completamente gratis
+            <div class="contact-feature-icon"><span class="material-symbols-outlined">redeem</span></div> Consulta
+            inicial completamente gratis
           </div>
           <div class="contact-feature">
-            <div class="contact-feature-icon">📋</div> Cotización detallada sin compromiso
+            <div class="contact-feature-icon"><span class="material-symbols-outlined">list_alt</span></div> Cotización
+            detallada sin compromiso
           </div>
           <div class="contact-feature">
-            <div class="contact-feature-icon">🤝</div> Acompañamiento en todo el proceso
+            <div class="contact-feature-icon"><span class="material-symbols-outlined">handshake</span></div>
+            Acompañamiento en todo el proceso
           </div>
         </div>
       </div>
@@ -783,7 +820,8 @@
           <textarea id="cf-mensaje" class="form-textarea"
             placeholder="Cuéntanos brevemente qué proceso quieres mejorar o automatizar..."></textarea>
         </div>
-        <button class="form-btn" onclick="handleFormSubmit(this)">🚀 Enviar mensaje y solicitar cotización</button>
+        <button class="form-btn" onclick="handleFormSubmit(this)"><span class="material-symbols-outlined"
+            style="font-size:18px">send</span> Enviar mensaje y solicitar cotización</button>
       </div>
     </div>
   </section>
@@ -794,7 +832,7 @@
       <div class="footer-top">
         <div class="footer-brand">
           <a href="#" class="logo">
-            <div class="logo-icon">💡</div>
+            <img class="logo-icon" src="public/images/ingenia-logo_100x100.png" alt="IngeniaSoft">
             <span class="logo-text">Ingenia<span>Soft</span></span>
           </a>
           <p class="footer-tagline">Software a la medida para pequeñas empresas que quieren crecer con tecnología.</p>
@@ -822,22 +860,43 @@
           <div class="footer-col-title">Contacto</div>
           <ul class="footer-links">
             <li><a href="https://wa.me/50661675533" style="display:inline-flex;align-items:center;gap:6px">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="18" height="18" fill="currentColor" role="img" aria-label="WhatsApp"><path d="M24 4C12.95 4 4 12.95 4 24c0 3.74 1.02 7.24 2.79 10.24L4 44l10.05-2.73A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.28 0-6.34-.93-8.93-2.54l-.64-.38-6.62 1.8 1.76-6.44-.42-.66A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16zm8.77-11.76c-.48-.24-2.84-1.4-3.28-1.56-.44-.16-.76-.24-1.08.24-.32.48-1.24 1.56-1.52 1.88-.28.32-.56.36-1.04.12-.48-.24-2.02-.74-3.85-2.36-1.42-1.26-2.38-2.82-2.66-3.3-.28-.48-.03-.74.21-.98.22-.22.48-.56.72-.84.24-.28.32-.48.48-.8.16-.32.08-.6-.04-.84-.12-.24-1.08-2.6-1.48-3.56-.39-.93-.78-.8-1.08-.82-.28-.01-.6-.01-.92-.01-.32 0-.84.12-1.28.6-.44.48-1.68 1.64-1.68 4s1.72 4.64 1.96 4.96c.24.32 3.38 5.16 8.2 7.24 1.15.5 2.04.8 2.74 1.02 1.15.36 2.2.31 3.02.19.92-.14 2.84-1.16 3.24-2.28.4-1.12.4-2.08.28-2.28-.12-.2-.44-.32-.92-.56z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="18" height="18" fill="currentColor"
+                  role="img" aria-label="WhatsApp">
+                  <path
+                    d="M24 4C12.95 4 4 12.95 4 24c0 3.74 1.02 7.24 2.79 10.24L4 44l10.05-2.73A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.28 0-6.34-.93-8.93-2.54l-.64-.38-6.62 1.8 1.76-6.44-.42-.66A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16zm8.77-11.76c-.48-.24-2.84-1.4-3.28-1.56-.44-.16-.76-.24-1.08.24-.32.48-1.24 1.56-1.52 1.88-.28.32-.56.36-1.04.12-.48-.24-2.02-.74-3.85-2.36-1.42-1.26-2.38-2.82-2.66-3.3-.28-.48-.03-.74.21-.98.22-.22.48-.56.72-.84.24-.28.32-.48.48-.8.16-.32.08-.6-.04-.84-.12-.24-1.08-2.6-1.48-3.56-.39-.93-.78-.8-1.08-.82-.28-.01-.6-.01-.92-.01-.32 0-.84.12-1.28.6-.44.48-1.68 1.64-1.68 4s1.72 4.64 1.96 4.96c.24.32 3.38 5.16 8.2 7.24 1.15.5 2.04.8 2.74 1.02 1.15.36 2.2.31 3.02.19.92-.14 2.84-1.16 3.24-2.28.4-1.12.4-2.08.28-2.28-.12-.2-.44-.32-.92-.56z" />
+                </svg>
                 WhatsApp
               </a></li>
-            <li><a href="mailto:info@ingeniasoft.net">✉️ info@ingeniasoft.net</a></li>
-            <li><a href="#">📍 Costa Rica</a></li>
-            <li><a href="#">📅 Agenda una llamada</a></li>
+            <li><a href="mailto:info@ingeniasoft.net"><span class="material-symbols-outlined">mail</span>
+                info@ingeniasoft.net</a></li>
+            <li><a href="#"><span class="material-symbols-outlined">location_on</span> Costa Rica</a></li>
+            <li><a href="#"><span class="material-symbols-outlined">calendar_month</span> Agenda una llamada</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
         <div class="footer-copy">© 2026 IngeniaSoft. Todos los derechos reservados.</div>
         <div class="footer-social">
-          <a href="#" class="social-btn">💼</a>
-          <a href="#" class="social-btn">📘</a>
-          <a href="#" class="social-btn">🐦</a>
-          <a href="#" class="social-btn">📸</a>
+          <a href="#" class="social-btn" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="LinkedIn">
+              <path
+                d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+            </svg></a>
+          <a href="#" class="social-btn" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Facebook">
+              <path
+                d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05v-2.66c0-3.03 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.5h-2.79V24C19.61 23.1 24 18.1 24 12.07z" />
+            </svg></a>
+          <a href="#" class="social-btn" aria-label="X"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              fill="currentColor" role="img" aria-label="X">
+              <path
+                d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.41l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.15h7.59l5.24 6.93zm-1.29 19.5h2.04L6.49 3.24H4.3z" />
+            </svg></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Instagram">
+              <path
+                d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38C1.35 2.68.93 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13.67.66 1.34 1.07 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.3 1.46-.72 2.13-1.38.66-.67 1.07-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.3-.79-.72-1.46-1.38-2.13A5.87 5.87 0 0 0 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zm0 10.15A3.99 3.99 0 1 1 16 12a3.99 3.99 0 0 1-4 3.99zm6.4-11.85a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z" />
+            </svg></a>
         </div>
       </div>
     </div>
@@ -845,7 +904,11 @@
 
   <!-- WHATSAPP FLOTANTE -->
   <a href="https://wa.me/50661675533" class="whatsapp-float" title="Escribir por WhatsApp">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="28" height="28" fill="#fff" role="img" aria-label="WhatsApp"><path d="M24 4C12.95 4 4 12.95 4 24c0 3.74 1.02 7.24 2.79 10.24L4 44l10.05-2.73A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.28 0-6.34-.93-8.93-2.54l-.64-.38-6.62 1.8 1.76-6.44-.42-.66A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16zm8.77-11.76c-.48-.24-2.84-1.4-3.28-1.56-.44-.16-.76-.24-1.08.24-.32.48-1.24 1.56-1.52 1.88-.28.32-.56.36-1.04.12-.48-.24-2.02-.74-3.85-2.36-1.42-1.26-2.38-2.82-2.66-3.3-.28-.48-.03-.74.21-.98.22-.22.48-.56.72-.84.24-.28.32-.48.48-.8.16-.32.08-.6-.04-.84-.12-.24-1.08-2.6-1.48-3.56-.39-.93-.78-.8-1.08-.82-.28-.01-.6-.01-.92-.01-.32 0-.84.12-1.28.6-.44.48-1.68 1.64-1.68 4s1.72 4.64 1.96 4.96c.24.32 3.38 5.16 8.2 7.24 1.15.5 2.04.8 2.74 1.02 1.15.36 2.2.31 3.02.19.92-.14 2.84-1.16 3.24-2.28.4-1.12.4-2.08.28-2.28-.12-.2-.44-.32-.92-.56z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="28" height="28" fill="#fff" role="img"
+      aria-label="WhatsApp">
+      <path
+        d="M24 4C12.95 4 4 12.95 4 24c0 3.74 1.02 7.24 2.79 10.24L4 44l10.05-2.73A19.87 19.87 0 0 0 24 44c11.05 0 20-8.95 20-20S35.05 4 24 4zm0 36c-3.28 0-6.34-.93-8.93-2.54l-.64-.38-6.62 1.8 1.76-6.44-.42-.66A15.93 15.93 0 0 1 8 24c0-8.82 7.18-16 16-16s16 7.18 16 16-7.18 16-16 16zm8.77-11.76c-.48-.24-2.84-1.4-3.28-1.56-.44-.16-.76-.24-1.08.24-.32.48-1.24 1.56-1.52 1.88-.28.32-.56.36-1.04.12-.48-.24-2.02-.74-3.85-2.36-1.42-1.26-2.38-2.82-2.66-3.3-.28-.48-.03-.74.21-.98.22-.22.48-.56.72-.84.24-.28.32-.48.48-.8.16-.32.08-.6-.04-.84-.12-.24-1.08-2.6-1.48-3.56-.39-.93-.78-.8-1.08-.82-.28-.01-.6-.01-.92-.01-.32 0-.84.12-1.28.6-.44.48-1.68 1.64-1.68 4s1.72 4.64 1.96 4.96c.24.32 3.38 5.16 8.2 7.24 1.15.5 2.04.8 2.74 1.02 1.15.36 2.2.31 3.02.19.92-.14 2.84-1.16 3.24-2.28.4-1.12.4-2.08.28-2.28-.12-.2-.44-.32-.92-.56z" />
+    </svg>
   </a>
 
   <script src="main.js"></script>
